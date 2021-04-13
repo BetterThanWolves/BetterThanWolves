@@ -1,0 +1,50 @@
+--- Minecraft.java	Sat Jun  9 14:08:43 2018
++++ Minecraft.java	Fri Apr 20 22:30:04 2018
+@@ -300,9 +300,6 @@
+         theMinecraft = this;
+         TextureManager.init();
+         this.guiAchievement = new GuiAchievement(this);
+-        // FCMOD: Code added to handle initialization of mods on client
+-        net.minecraft.src.FCAddOnHandler.InitializeMods();
+-        // END FCMOD
+     }
+ 
+     private void startTimerHackThread()
+@@ -407,12 +404,7 @@
+         this.fontRenderer = new FontRenderer(this.gameSettings, "/font/default.png", this.renderEngine, false);
+         this.standardGalacticFontRenderer = new FontRenderer(this.gameSettings, "/font/alternate.png", this.renderEngine, false);
+ 
+-    	// FCMOD: Change to prevent crash loading options files from newer versions of MC
+-    	/*
+         if (this.gameSettings.language != null)
+-        */
+-        if ( gameSettings.language != null && Minecraft.class.getResource( "/lang/" + gameSettings.language + ".lang" ) != null )
+-        // END FCMOD
+         {
+             StringTranslate.getInstance().setLanguage(this.gameSettings.language, false);
+             this.fontRenderer.setUnicodeFlag(StringTranslate.getInstance().isUnicode());
+@@ -1236,11 +1228,7 @@
+ 
+         if (par1 != 0 || this.leftClickCounter <= 0)
+         {
+-        	// FCMOD: Changed (client only)
+-            //if (par2 && this.objectMouseOver != null && this.objectMouseOver.typeOfHit == EnumMovingObjectType.TILE && par1 == 0)
+-            if ( par2 && this.objectMouseOver != null && this.objectMouseOver.typeOfHit == EnumMovingObjectType.TILE && par1 == 0 &&
+-            	!thePlayer.isUsingItem() )
+-        	// END FCMOD
++            if (par2 && this.objectMouseOver != null && this.objectMouseOver.typeOfHit == EnumMovingObjectType.TILE && par1 == 0)
+             {
+                 int var3 = this.objectMouseOver.blockX;
+                 int var4 = this.objectMouseOver.blockY;
+@@ -1805,11 +1793,6 @@
+ 
+             if (this.gameSettings.keyBindUseItem.pressed && this.rightClickDelayTimer == 0 && !this.thePlayer.isUsingItem())
+             {
+-            	// FCMOD: Code added (Client Only)
+-            	ItemStack currentStack = thePlayer.inventory.getCurrentItem();
+-            	
+-            	if ( currentStack != null && currentStack.getItem().IsMultiUsePerClick() )
+-        		// END FCMOD
+                 this.clickMouse(1);
+             }
+ 
