@@ -5,7 +5,7 @@
 # Better Than Wolves
 ![Banner](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/thumbnail.png)
 
-Better Than Wolves was a total conversion mod of Minecraft version 1.5.2 created by FlowerChild.
+Better Than Wolves was a total conversion mod of Minecraft version 1.5.2 created by FlowerChild and uploaded to the [Minecraft Forums](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272992-better-than-wolves-total-conversion).
 Its intention was to introduce numerous items and mechanics into Minecraft to give it both
 new variety and new challenges. As of April 9th 2021, the mod and all its code has been [released](http://www.sargunster.com/btwforum/viewtopic.php?f=12&t=9863&p=158404)
 under [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/),
