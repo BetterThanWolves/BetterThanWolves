@@ -1,6 +1,9 @@
 ## Context
 ![Context #1](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/origins1.PNG)
+[Link](https://www.minecraftforum.net/forums/minecraft-java-edition/survival-mode/220651-notch-wolves-are-a-bad-idea)
+
 ![Context #2](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/origins2.png)
+[Link](https://www.minecraftforum.net/forums/minecraft-java-edition/suggestions/31682-challenge-better-than-wolves)
 
 # Better Than Wolves
 ![Banner](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/thumbnail.png)
