@@ -1,9 +1,9 @@
 ## Context
-![Context #1](https://github.com/MoleMad/BetterThanWolves/raw/master/docs/img/origins1.PNG)
-![Context #2](https://github.com/MoleMad/BetterThanWolves/raw/master/docs/img/origins2.png)
+![Context #1](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/origins1.PNG)
+![Context #2](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/origins2.png)
 
 # Better Than Wolves
-![Banner](https://github.com/MoleMad/BetterThanWolves/raw/master/docs/img/thumbnail.png)
+![Banner](https://github.com/BetterThanWolves/BetterThanWolves/raw/master/docs/img/thumbnail.png)
 
 Better Than Wolves was a total conversion mod of Minecraft version 1.5.2 created by FlowerChild.
 Its intention was to introduce numerous items and mechanics into Minecraft to give it both
