@@ -23,6 +23,7 @@ Here's a useful [wiki page](http://sargunster.com/btw/index.php?title=Versions) 
 #### [1.0](https://www.mediafire.com/file/fsolaq1oos11s7y/BTWMod1-0.zip/file) (Beta 1.4_01)
 #### [1.24](http://www.mediafire.com/file/pk95icdei38ud1z/BTWMod1-24.zip/file) (Latest for Beta 1.4_01) (Requires [Modloader b1.4_01](https://www.mediafire.com/file/6dg1bcw92s93r9a/ModLoader_B1.4_01.zip/file))
 #### [2.94](http://www.mediafire.com/file/jdx0m7nrrarkmy1/BTWMod2-94.zip/file) (Latest for Beta 1.7.3) (Requires [Forge 1.0.6](https://sourceforge.net/projects/minecraftforge/files/1.0.6/) OR [Modloader b1.7.3](https://www.mediafire.com/file/vb5bq3aoitdkgx8/ModLoader_B1.7.3.zip/file))
+#### [3.22](https://www.mediafire.com/file/ovn3ckzckqr7u1n/BTWMod3-22.zip/file) (Latest for Beta 1.8.1) (Requires [Forge 1.1.0](https://sourceforge.net/projects/minecraftforge/files/1.1.0/) OR [Modloader b1.8.1](https://mcarchive.net/mods/modloader?gvsn=b1.8.1))
 #### [3.91](https://www.mediafire.com/file/5955vc7ccbkvc13/BTWMod3-91.zip/file) (Latest for 1.2.5) (Requires [Modloader 1.2.5](https://mcarchive.net/mods/modloader?gvsn=1.2.5))
 
 
